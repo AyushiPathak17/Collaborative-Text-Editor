@@ -1,0 +1,95 @@
+/* Editor styles */
+#editor {
+  width: 80%;
+  min-height: 500px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  position: relative;
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  line-height: 1.6; 
+  background-color: #fff; 
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Cursor styles */
+.cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  font-size: 12px;
+  color: #000;
+}
+
+/* Text highlighting styles */
+.highlighted-text {
+  background-color: rgba(255, 255, 0, 0.5); 
+}
+
+/* Optional: Login page styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
